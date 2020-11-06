@@ -1,0 +1,77 @@
+ html, body {
+   padding: 0;
+   margin: 0;
+ }
+
+ body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   width: 100vw;
+   background-color: #fafafa;
+ }
+
+ div#instagram-form-box {
+   background-color: #fff;
+   border: 1px solid #ccc;
+   width: 350px;
+   height: 380px;
+   padding-top: 10px;
+ }
+
+ div#instagram-logo-container {
+   display: flex;
+   justify-content: center;
+ }
+
+ img#instagram-logo {
+   width: 220px;
+ }
+
+ div#form-container {
+   margin-top: 20px;
+ }
+
+ form#form {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ form>input.input-instagram {
+   margin-bottom: 10px;
+   width: 70%;
+   height: 30px;
+   border: 1px solid #999;
+   background-color: #fafafa;
+   border-radius: 3px;
+ }
+
+ form>input.input-instagram::-webkit-input-placeholder {
+   color: #aaa;
+ }
+
+ form>input.input-instagram:-moz-placeholder {
+   /* Firefox 18- */
+   color: #aaa;
+ }
+
+ form>input.input-instagram::-moz-placeholder {
+   /* Firefox 19+ */
+   color: #aaa;
+ }
+
+ form>input.input-instagram:-ms-input-placeholder {
+   color: #aaa;
+ }
+
+ button#form-button {
+   background-color: #2f95f6;
+   border: none;
+   width: 72%;
+   border-radius: 3px;
+   height: 28px;
+   color: white;
+   font-weight: bold;
+ }
